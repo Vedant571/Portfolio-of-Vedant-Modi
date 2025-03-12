@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: linear-gradient(135deg, #a8edea, #fed6e3);
+            color: #333;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .section-title {
+            color: #fff;
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            animation: slideIn 1s ease-in-out;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1.2s ease-in-out;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #6a11cb;
+            color: #fff;
+        }
+        .photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            animation: zoomIn 1.5s ease-in-out;
+        }
+        .quote {
+            text-align: center;
+            font-style: italic;
+            margin-top: 20px;
+            font-size: 18px;
+            color: #6a11cb;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .linkedin {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .linkedin a {
+            color: #2575fc;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .linkedin a:hover {
+            text-decoration: underline;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-100px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes zoomIn {
+            from { transform: scale(0.8); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="photo">
+        <img src="WhatsApp Image 2025-03-12 at 22.27.20_ee2df0df.jpg" alt="Vedant Modi's Photo">
+    </div>
+
+    <section>
+        <h2 class="section-title">Personal Info</h2>
+        <table>
+            <tr><th>Name</th><td>Vedant Modi</td></tr>
+            <tr><th>Age</th><td>19</td></tr>
+            <tr><th>Address</th><td>Sector-7, Mira Road East</td></tr>
+            <tr><th>Phone No</th><td>9324141807</td></tr>
+            <tr><th>Languages</th><td>English, Hindi, Gujarati</td></tr>
+            <tr><th>Nationality</th><td>Indian</td></tr>
+            <tr><th>Gender</th><td>Male</td></tr>
+            <tr><th>Hobbies</th><td>Swimming, Hiking, Cricket, Travelling</td></tr>
+        </table>
+    </section>
+
+    <section>
+        <h2 class="section-title">Education</h2>
+        <table>
+            <tr><th>Course</th><td>BSc (I.T)</td></tr>
+            <tr><th>Year</th><td>First Year</td></tr>
+        </table>
+    </section>
+
+    <section>
+        <h2 class="section-title">Skills</h2>
+        <table>
+            <tr><th>Skills</th><td>Front-End Web Development (HTML, CSS, Advanced Javascript, Advanced DOM, jQuery, Frameworks like. Bootstrap)</td></tr>
+            <tr><th>Skills</th><td>C, C++</td></tr>
+            <tr><th>Skills</th><td>Swimming</td></tr>
+            <tr><th>Skills</th><td>Won Medals in Drawing and HSC Result</td></tr>
+            <tr><th>Skills</th><td>Great Communication Skills</td></tr>
+            <tr><th>Skills</th><td>Problem-Solving Skills</td></tr>
+        </table>
+    </section>
+
+    <section>
+        <h2 class="section-title">Projects Made by Me</h2>
+        <table>
+            <tr>
+                <th>Project</th>
+                <td><a href="https://vedant571.github.io/AuraPic/" target="_blank">Wallpaper Website</a></td>
+            </tr>
+            <tr>
+                <th>Project</th>
+                <td><a href="https://vedant571.github.io/Drum-Kit/" target="_blank">Drum Kit</a></td>
+            </tr>
+            <tr>
+                <th>Project</th>
+                <td><a href="https://vedant571.github.io/Dice-Project/" target="_blank">Dice Game</a></td>
+            </tr>
+            <tr>
+                <th>Project</th>
+                <td><a href="https://vedant571.github.io/Blogs/" target="_blank">Simple Blog Website using Bootstrap</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2 class="section-title">Academic Performance</h2>
+        <table>
+            <tr>
+                <th>Sr. No</th>
+                <th>School/College Name</th>
+                <th>Level</th>
+                <th>Percentage/SGPA</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>ST. XAVIERS High School</td>
+                <td>SSC</td>
+                <td>73.80%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>TRCAC</td>
+                <td>HSC</td>
+                <td>86.17%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Usha Pravin Gandhi College</td>
+                <td>Sem-I</td>
+                <td>8.55 SGPA</td>
+            </tr>
+        </table>
+    </section>
+    
+
+    <div class="quote">
+        "The only way to do great work is to love what you do." – Steve Jobs
+    </div>
+
+    <div class="linkedin">
+        <a href="https://www.linkedin.com/in/vedantmodi2006" target="_blank">Connect with me on LinkedIn</a>
+    </div>
+
+    <div class="linkedin">
+        <a href="https://github.com/Vedant571" target="_blank">Connect with me on Github</a>
+    </div>
+
+</body>
+</html>
